@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server 1",
+      "author": "typicode 1"
+    },
+    {
+      "id": "2",
+      "title": "json-server 2",
+      "author": "typicode 2"
+    },
+    {
+      "id": "3",
+      "title": "json-server 3",
+      "author": "typicode 3"
+    },
+    {
+      "id": "4",
+      "title": "json-server 4",
+      "author": "typicode 4"
+    },
+    {
+      "id": "5",
+      "title": "json-server 5",
+      "author": "typicode 5"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Nguyen Van A",
+      "age": "28",
+      "email": "Thanh@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Nguyen Van A",
+      "age": "28",
+      "email": "Thanh@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Nguyen Van A",
+      "age": "28",
+      "email": "Thanh@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Nguyen Van A",
+      "age": "28",
+      "email": "Thanh@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Nguyen Van A",
+      "age": "28",
+      "email": "Thanh@gmail.com"
+    },
+    {
+      "id": "653c",
+      "name": "Thành",
+      "age": 29,
+      "email": "th@gmail.com"
+    },
+    {
+      "id": "8213",
+      "name": "Tùng",
+      "age": 25,
+      "email": "Tung@gmail.com"
+    }
+  ]
+}

@@ -23,6 +23,8 @@ import Emits from './components/Emits.vue'
 import BookForm from './components/BookForm.vue'
 import Book from './components/Book.vue'
 let tinNhan = ref('Xin Chàoooooooo')
+import API from './components/API.vue'
+import { RouterLink, RouterView } from 'vue-router'
 
 let tinNhanEmit = ref('')
 function emitHandle(tinNhan) {
@@ -104,9 +106,12 @@ function handleBook(book) {
       <!-- <Emits @emitEvent="emitHandle" />
       <h2>{{ tinNhanEmit }}</h2> -->
       <!-- Sử dụng Emit để nhận dữ liệu từ người dùng -->
-      <BookForm @add-book="handleBook" />
+      <!-- <BookForm @add-book="handleBook" /> -->
       <!-- SỬ dụng Prop để hiển thị danh sách từ cha -->
-      <Book :books="books" />
+      <!-- <Book :books="books" /> -->
+      <div id="app">
+        <RouterView />
+      </div>
     </div>
   </div>
 
